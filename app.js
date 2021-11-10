@@ -15,6 +15,10 @@ app.get("/conexion", (req, res) => {
     res.send("conexion")
 })
 
+app.get("/conexion-mongo", (req, res) => {
+    res.send("conexion a mongo db")
+})
+
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
 })
