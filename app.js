@@ -27,6 +27,10 @@ app.get("/conexion-mysql", (req, res) => {
     res.send("conexion a mysql")
 })
 
+app.get("/conexion-sqlite", (req, res) => {
+    res.send("conexion a sqlite")
+})
+
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
 })
