@@ -11,6 +11,10 @@ app.get("/test", (req, res) => {
     res.send("TEST")
 })
 
+app.get("/conexion", (req, res) => {
+    res.send("conexion")
+})
+
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
 })
