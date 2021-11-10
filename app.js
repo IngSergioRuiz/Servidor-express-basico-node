@@ -19,6 +19,10 @@ app.get("/conexion-mongo", (req, res) => {
     res.send("conexion a mongo db")
 })
 
+app.get("/conexion-oracle", (req, res) => {
+    res.send("conexion a oracle db")
+})
+
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
 })
